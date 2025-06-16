@@ -19,8 +19,8 @@ const font = Figtree({ subsets: ['latin'] });
 
 //* Describe the web app
 export const metadata = {
-  title: 'Spotify Clone',
-  description: 'Listen to music!',
+  title: 'Mele FM',
+  description: 'The sounds of our islands',
 };
 
 export const revalidate = 0;

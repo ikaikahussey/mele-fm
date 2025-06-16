@@ -11,7 +11,7 @@ const Account = () => {
     h-full
     w-full
     rounded-lg
-    bg-neutral-900"
+    bg-amber-900"
     >
       <Header className="from-bg-neutral-900">
         <div className="mb-2 flex flex-col gap-y-6">

@@ -243,6 +243,7 @@ export interface Database {
           full_name: string | null;
           id: string;
           payment_method: Json | null;
+          is_admin: boolean | null;
         };
         Insert: {
           avatar_url?: string | null;
@@ -250,6 +251,7 @@ export interface Database {
           full_name?: string | null;
           id: string;
           payment_method?: Json | null;
+          is_admin?: boolean | null;
         };
         Update: {
           avatar_url?: string | null;
@@ -257,6 +259,7 @@ export interface Database {
           full_name?: string | null;
           id?: string;
           payment_method?: Json | null;
+          is_admin?: boolean | null;
         };
         Relationships: [
           {

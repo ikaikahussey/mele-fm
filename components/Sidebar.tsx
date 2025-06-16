@@ -9,6 +9,7 @@ import { usePlayer } from '@/hooks/usePlayer';
 import { useMemo } from 'react';
 import { HiHome } from 'react-icons/hi';
 import { BiSearch } from 'react-icons/bi';
+import { MdLibraryMusic } from 'react-icons/md';
 
 import { Box } from './Box';
 import { SidebarItem } from './SidebarItem';
@@ -41,8 +42,14 @@ export const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
       {
         icon: BiSearch,
         label: 'Search',
-        active: pathname === 'search',
+        active: pathname === '/search',
         href: '/search',
+      },
+      {
+        icon: MdLibraryMusic,
+        label: 'Browse',
+        active: pathname === '/browse',
+        href: '/browse',
       },
     ],
     []
